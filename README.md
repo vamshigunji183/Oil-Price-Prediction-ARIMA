@@ -17,9 +17,9 @@ seaborn
 
 # Time Series
 
-<img src="./Images/value.png" alt="Price in USD"align= 'center' width="100%">
+<img src="./Images/value.png" alt="Price in USD" align= 'center' width="100%">
 
-<img src="./Images/exponential-model.png" alt="Exponential Model Price in USD"align= 'center' width="100%">
+<img src="./Images/exponential-model.png" alt="Exponential Model Price in USD" align= 'center' width="100%">
 
 
 Time series prediction or forecasting presents its own challenges which are different from machine-learning problems.  
@@ -45,7 +45,7 @@ $$ X_t = \mu t + \varepsilon_t $$
 $$ X_t = \alpha \sin(\omega t) + \beta \cos(\omega t)$$
 
 ### SVR RBF
-<img src="./Images/SVM RBF.png" alt="SVM RBF, Linear Regression"align= 'center' width="100%">
+<img src="./Images/SVM RBF.png" alt="SVM RBF, Linear Regression" align= 'center' width="100%">
 
 ## Advanced Time Series Models
 ### Check for Stationarity in a series?
