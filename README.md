@@ -17,7 +17,7 @@ seaborn
 
 # Time Series
 
-<img src="./Images/value.png" alt="Price in USD"align= 'center' width="100%">
+<img src="./Images/value.png" alt="Price in USD" align= 'center' width="100%">
 
 <img src="./Images/exponential-model.png" alt="Exponential Model Price in USD"align= 'center' width="100%">
 
