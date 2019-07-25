@@ -66,31 +66,31 @@ A p-value below a threshold (such as 5% or 1%) suggests we reject the null hypot
 ***p-value > 0.05: *** Accept the null hypothesis (H0), the data has a unit root and is non-stationary.
 
 ***p-value <= 0.05: *** Reject the null hypothesis (H0), the data does not have a unit root and is stationary.
-<img src="./Images/stationarity-test.png" alt="Rolling Means and Standard Deviation"align= 'center' width="100%">
+<img src="./Images/stationarity-test.png" alt="Rolling Means and Standard Deviation" align= 'center' width="100%">
 
 ### Non-Stationarity 
 Decomposing the Time Series into `Seasonality`, `Trend` and `Residuals`
-<img src="./Images/decomposition.png" alt="Seasonality, Trend, Residuals"align= 'center' width="100%">
+<img src="./Images/decomposition.png" alt="Seasonality, Trend, Residuals" align= 'center' width="100%">
 
 ### Stationarity Check
 
 Checking for the Stationarity for all the decomposed values.
 
-<img src="./Images/stationarity-decompose.png" alt="Stationarity for Decomposed Values"align= 'center' width="100%">
+<img src="./Images/stationarity-decompose.png" alt="Stationarity for Decomposed Values" align= 'center' width="100%">
 
 ### Auto Correlation
 The Pearson’s correlation coefficient is a number between -1 and 1 that describes a negative or positive correlation respectively. A value of zero indicates no correlation.
 
-<img src="./Images/ACF.png" alt="AutoCorr on Price"align= 'center' width="100%">
+<img src="./Images/ACF.png" alt="AutoCorr on Price" align= 'center' width="100%">
 
 ### Partial Auto correlation
 A partial auto correlation is a summary of the relationship between an observation in a time series with observations at prior time steps with the relationships of intervening observations removed.
 
 PACF with 5 lags
-<img src="./Images/PACF5.png" alt="Partial AutoCorr on Price with 5 lags"align= 'center' width="100%">
+<img src="./Images/PACF5.png" alt="Partial AutoCorr on Price with 5 lags" align= 'center' width="100%">
 
 PACF with 10 lags
-<img src="./Images/PACF10.png" alt="Partial AutoCorr on Price with 10 lags"align= 'center' width="100%">
+<img src="./Images/PACF10.png" alt="Partial AutoCorr on Price with 10 lags" align= 'center' width="100%">
 
 In this plot, the two dotted lines on either sides of 0 are the confidence interevals. These can be used to determine the ‘p’ and ‘q’ values as:
 
